@@ -1,10 +1,8 @@
-function zoj(getNumber) {
-    var getPrametr =Number(prompt("entet your number: "))
-    
-    if (getPrametr % 2 == 0){
-        alert("even")
-    }else{
-        alert("odd")
-    }
+function avgThreeNumber() {
+    var first = Number(prompt("enter first Number: "));
+    var two = Number(prompt("enter two Number: "));
+    var three = Number(prompt("enter three Number: "));
+    var avg = (first + two + three) / 3;
+    alert(avg)
 }
-zoj()
+avgThreeNumber()
